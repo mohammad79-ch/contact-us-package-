@@ -1,0 +1,26 @@
+{
+    "name": "contact/form",
+    "description": "this create the contact form for us",
+    "type": "library",
+    "license": "MIT",
+    "autoload": {
+        "psr-4": {
+            "Contact\\Form\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "Mamad",
+            "email": "mamadbosqests@gmail.com"
+        }
+    ],
+    "minimum-stability": "dev",
+    "require": {},
+    "extra": {
+        "laravel": {
+            "providers": [
+                "Contact\\Form\\ContactFormServiceProvider"
+            ]
+        }
+    }
+}
